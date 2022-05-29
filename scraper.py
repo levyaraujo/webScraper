@@ -5,7 +5,10 @@ from bs4 import BeautifulSoup
 import re
 
 
-def getContent(url):  # função que que irá tratar os possíveis erros na requisição
+def get_content(url):
+    """
+    Esta função irá acessar a url requisitada e retornar todo o conteúdo da página
+    """
     try:
         page = urlopen(url)
     except HTTPError:
@@ -27,9 +30,13 @@ def getContent(url):  # função que que irá tratar os possíveis erros na requ
     return content
 
 
-def getURL():  # função que irá filtrar e adicionar os links dos pdfs numa lista
+def get_url():
+    """
+    Esta função irá pegar o conteúdo da página da função anterior, filtrar e salvar
+    as URLs alvo em uma lista
+    """
     pdfs = []
-    content = getContent(
+    content = get_content(
         "https://www.gov.br/ans/pt-br/assuntos/consumidor/o-que-o-seu-plano-de-saude-deve-cobrir-1/o-que-e-o-rol-de-procedimentos-e-evento-em-saude"
     )
 
