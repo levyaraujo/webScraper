@@ -4,7 +4,7 @@ Este é um web scraper escrito em Python que acessa o site do [Governo Federal](
 
 ## Requisitos 
 
-- Python 3.10.4
+- Python 3.7+
 - BeautifulSoup 4.11.1
 - requests 2.27.1
 
@@ -18,11 +18,6 @@ Este é um web scraper escrito em Python que acessa o site do [Governo Federal](
 
    ou baixe o [arquivo zip](https://github.com/levyaraujo/webScraper/archive/refs/heads/main.zip).
 
-<<<<<<< HEAD
-2. No terminal, entre na pasta principal do projeto e execute o comando `pip install -r requirements.txt` e em seguida `python main.py`
-
-=======
-2. No terminal, entre na pasta principal do projeto e execute o comando `pip install -r requirements.txt` e em seguida. Este comando irá instalar todas as dependências do projeto.
+2. No terminal, entre na pasta principal do projeto e execute o comando `pip install -r requirements.txt.` Este comando irá instalar todas as dependências do projeto.
 
 3. Execute o scraper com o comando `python main.py`. O programa irá baixar os arquivos e irá criar uma pasta **PDFs.zip** contendo os arquivos baixados. 
->>>>>>> 42be7c59cef75653a44290c3bad52d8769ed9449
