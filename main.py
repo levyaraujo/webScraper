@@ -20,7 +20,7 @@ def save_files():
         print("\nO arquivo já existe no caminho especificado.\n")
         return True
     try:
-        os.mkdir(path, mode=0o666)
+        os.mkdir(path)
     except FileExistsError:
         print("A pasta que você tentou criar já existe")
         return True
