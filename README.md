@@ -20,4 +20,6 @@ Este é um web scraper escrito em Python que acessa o site do [Governo Federal](
 
 2. No terminal, entre na pasta principal do projeto e execute o comando `pip install -r requirements.txt.` Este comando irá instalar todas as dependências do projeto.
 
+2. No terminal, entre na pasta principal do projeto e execute o comando `pip install -r requirements.txt`. Este comando irá instalar todas as dependências do projeto.
+
 3. Execute o scraper com o comando `python main.py`. O programa irá baixar os arquivos e irá criar uma pasta **PDFs.zip** contendo os arquivos baixados. 
