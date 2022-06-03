@@ -22,7 +22,7 @@ def save_files():
     try:
         os.mkdir(path)
     except FileExistsError:
-        print("A pasta que você tentou criar já existe")
+        print("A pasta que você tentou criar já existe. Apague-a e tente novamente.")
         return True
 
     print("\nProcessando... Aguarde\n")
